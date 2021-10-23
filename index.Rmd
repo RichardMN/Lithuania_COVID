@@ -2,6 +2,9 @@
 title: "Title"
 author: "[Author name](https://github.com/author-name)"
 date: "Last updated: `r format(Sys.time(), '%d %B, %Y')`"
+output:
+  github_document:
+    html_preview: FALSE
 description: "Description"
 url: 'https\://username.github.io/reponame/'
 github-repo: "username/reponame"
